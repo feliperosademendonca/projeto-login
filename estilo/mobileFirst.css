@@ -1,0 +1,101 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+/*
+paletas de cores
+verde :#49a09d
+lilás:#5f2c82
+*/
+
+html{
+    background-color: #5f2c82;
+
+}
+
+h1{
+    padding: 10px;
+}
+main{
+    padding: 5vh;
+
+}
+
+#imagem{
+    width:70vw;
+    height: 40vh;
+    background-image: url('../img/pexels-sevenstorm-juhaszimrus-443383.jpg');
+    background-position: center bottom;
+    border-radius:10px 10px 0px  0px ;
+
+}
+
+#login{
+    background-color: white;
+    width:70vw;
+    height:90vh;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 9px black;
+
+    
+}
+
+
+main>section>div#formulário>p{
+    font-size: .6em;
+    text-align: justify;
+    max-width: 60vw;
+    margin: auto;
+}
+
+input{
+    border-color:#5553ce;
+    border-radius: 10px;
+    font-size: .7em;
+    width: 50vw;
+    height: 40px;
+    margin: 5px;
+    left: 110px;
+}
+ 
+ 
+.icon{
+    position: absolute;
+    border-radius:  10px 0px 0px 10px;
+    margin-top:5px;
+    width: 60px;
+    height: 44px;
+    background-color: #5f2c82;
+    
+}
+
+button{
+     margin: auto;
+    background-color: #539df8;
+    padding: 9px 50px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: .7em;
+    width: 60vw;
+    height: 50px;
+
+}
+#lostPsw {
+ 	text-decoration: none;
+    font-size: .7em;
+    background-color: white;
+    border-color: #5f2c82;
+    border: 1px solid;
+    color: #5f2c82;
+    width: 60vw;
+    height: 50px;
+    margin-top: 6px;
+	}
+ 

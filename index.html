@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mobileFirst.css">
+    <link rel="stylesheet" href="estilo/otherDevices.css" media= "(max-width: 500px)">
     <title>Projeto Tela de Login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                foto
-            </div>
+             </div>
             <div id="formulário">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. 
                 Faça login para acessar a sua conta e 
                 poder fazer as configurações em seu 
                 ambiente</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.html" method="post">
+                    <div class="icon"></div><input type="text" name="nome" id="iNome" placeholder="nome">
+                    <div class="icon"></div><input type="email" name="email" id="iEmail" placeholder="email">
+                    <button>Entrar</button>
+                </form>
+                <button id="lostPsw">Esqueci a Senha</button>
             </div>
 
         </section>
