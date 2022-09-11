@@ -1,0 +1,33 @@
+/*Orientation Landscape*/
+
+/*Para tablet*/
+@media  screen and (width:720px) and (orientation:landscape) {
+    
+}
+
+/*Para PC*/
+@media  screen and (width:1280px) and (orientation:landscape)  {
+    
+}
+
+/*Para GrandesTelas*/
+@media  screen and (width:1920px) and (orientation:landscape) {
+    
+}
+
+
+/*Orientation Portrait*/
+/*Para tablet*/
+@media  screen and (width:581px) and (orientation:portrait) {
+    
+}
+
+/*Para PC*/
+@media  screen and (width:720px) and (orientation:portrait)  {
+    
+}
+
+/*Para GrandesTelas*/
+@media  screen and (width:1080px) and (orientation:portrait) {
+    
+}
