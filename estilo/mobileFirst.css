@@ -1,53 +1,60 @@
 @charset "utf-8";
+ 
 *{
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
+    box-sizing: border-box;
+
 }
 
 /*
 paletas de cores
-verde :#49a09d
+verde :#49a09d  
 lilás:#5f2c82
 */
 
 html{
     background-color: #5f2c82;
-
 }
 
 h1{
     padding: 10px;
 }
+
 main{
     padding: 5vh;
-
 }
-
-#imagem{
-    width:70vw;
-    height: 40vh;
-    background-image: url('../img/pexels-sevenstorm-juhaszimrus-443383.jpg');
-    background-position: center bottom;
-    border-radius:10px 10px 0px  0px ;
-
-}
+ 
 
 #login{
     background-color: white;
     width:70vw;
-    height:90vh;
+    height:580px;
     border-radius: 10px;
     margin: auto;
     text-align: center;
     box-shadow: 0px 0px 9px black;
 
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+#login>#imagem{
+    display: block;
+    background: #5f2c82  url('../img/pexels-sevenstorm-juhaszimrus-443383.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom bottom;
+    height: 200px;
 }
 
-
-main>section>div#formulário>p{
+#formulário>p{
     font-size: .6em;
     text-align: justify;
     max-width: 60vw;
@@ -59,25 +66,33 @@ input{
     border-radius: 10px;
     font-size: .7em;
     width: 50vw;
-    height: 40px;
-    margin: 5px;
-    left: 110px;
+    height: 45px;
+    margin-left: 65px;
 }
- 
- 
-.icon{
+
+.icone {
+    width: 60vw;
+    background-color: #5553ce;
+    border-radius:  10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.icone>img{
     position: absolute;
-    border-radius:  10px 0px 0px 10px;
-    margin-top:5px;
-    width: 60px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
     height: 44px;
-    background-color: #5f2c82;
     
 }
 
+
+ 
 button{
-     margin: auto;
-    background-color: #539df8;
+    margin: auto;
+    background-color: #49a09d;
     padding: 9px 50px;
     border: none;
     color: white;
@@ -91,9 +106,9 @@ button{
  	text-decoration: none;
     font-size: .7em;
     background-color: white;
-    border-color: #5f2c82;
+    border-color: #49a09d;
     border: 1px solid;
-    color: #5f2c82;
+    color: #49a09d;
     width: 60vw;
     height: 50px;
     margin-top: 6px;

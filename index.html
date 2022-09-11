@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Tag para Compatibilidade do internet explorer-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Tag da apple  -->
-    <link rel="stylesheet" href="estilo/mobileFirst.css">
+     <link rel="stylesheet" href="estilo/mobileFirst.css">
     <link rel="stylesheet" href="estilo/otherDevices.css" media= "(max-width: 580px)">
     <title>Projeto Tela de Login</title>
 </head>
@@ -19,12 +19,18 @@
                 Faça login para acessar a sua conta e 
                 poder fazer as configurações em seu 
                 ambiente</p>
-                <form action="confirm.html" method="post">
-                    <div class="icon"></div><input type="text" name="nome" id="iNome" placeholder="nome">
-                    <div class="icon"></div><input type="email" name="email" id="iEmail" placeholder="email">
-                    <button>Entrar</button>
+                <form action="pgConfirm.html" method="post" autocomplete="on">
+                    <div class="email icone ">
+                        <i alt="icone email  material-symbols-outlined"  class="iconeEmail">mail</i>
+                        <input type="email" name="email" id="iEmail" placeholder="email" required="" maxlength="30">
+                    </div>
+                    <div class="pswd icone" >
+                       <i alt="icone senha  material-symbols-outlined" class="iconePswd material">key</i>
+                        <input type="password" name="pswd" id="iPswd" placeholder="Senha" required="" maxlength="30">
+                    </div>
+                    <button type="submit">Entrar</button>
                 </form>
-                <button id="lostPsw">Esqueci a Senha</button>
+                <a href="recuperarSenha.html"><button type="submit" id="lostPsw">Esqueci a Senha</button></a>
             </div>
 
         </section>
