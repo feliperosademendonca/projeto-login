@@ -7,6 +7,7 @@
     <link rel="stylesheet"  href="./icon.css">
      <link rel="stylesheet" href="estilo/mobileFirst.css">
     <link rel="stylesheet" href="estilo/otherDevices.css" media= "(min-width: 768px)">
+    <script src="script.js"></script>
     <title>Projeto Tela de Login</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 Faça login para acessar a sua conta e 
                 poder fazer as configurações em seu 
                 ambiente</p>
-                <form action="pgConfirm.html" method="post" autocomplete="on">
+                <form action="./pgConfirm.html" method="post" autocomplete="on">
                     <div class="email icone ">
                         <i alt="icone email  "  class="iconeEmail material-icons">person</i>
                         <input type="email" name="email" id="iEmail" placeholder="email" required="" maxlength="30">
@@ -29,11 +30,11 @@
                        <i alt="icone senha  " class="iconePswd   material-icons">key</i>
                         <input type="password" name="pswd" id="iPswd" placeholder="Senha" required="" maxlength="30">
                     </div>
-                    <button type="submit">Entrar</button>
+                    <button type="submit" onclick="msgDemvindo()">Entrar</button>
                 </form>
-                <a href="recuperarSenha.html"><button type="submit" id="lostPsw">Esqueci a Senha</button></a>
+                <a href="recuperarSenha.html" onclick="msgRec()"><button type="submit" id="lostPsw"  >Esqueci a Senha</button></a>
             </div>
-
+          
         </section>
     </main>
     
