@@ -1,33 +1,56 @@
+@charset "utf-8";
+/*
+pq até 600
+mobile 600 a 768
+tablet 768 a 992
+pc     992 a 1280
+Tv     1280 para cima
+*/
 /*Orientation Landscape*/
 
 /*Para tablet*/
-@media  screen and (width:720px) and (orientation:landscape) {
+@media  screen and (min-width:768px) and (max-width:992px) {
     
-}
+    body{
+        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+    }
 
-/*Para PC*/
-@media  screen and (width:1280px) and (orientation:landscape)  {
-    
-}
+    #login{
+        width: 50%;
+        height: 50%;
+    }
 
-/*Para GrandesTelas*/
-@media  screen and (width:1920px) and (orientation:landscape) {
-    
-}
+    #login>#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
 
+     }
 
-/*Orientation Portrait*/
-/*Para tablet*/
-@media  screen and (width:581px) and (orientation:portrait) {
-    
-}
+    #formulário{
+         float: right;
+         width: 70%;
 
-/*Para PC*/
-@media  screen and (width:720px) and (orientation:portrait)  {
-    
+     }
 }
+/*Para pc e grandes telas*/
+@media  screen and (min-width:992px)   {
+    body{
+        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+    }
 
-/*Para GrandesTelas*/
-@media  screen and (width:1080px) and (orientation:portrait) {
-    
-}
+    section#login{
+        max-width: 950px;
+    }
+
+    #login>#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulário{
+        float: right;
+        width: 50%;
+    }
+}        
