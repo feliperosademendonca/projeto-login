@@ -29,9 +29,6 @@ main{
 
 }
 
-h1{
-    padding: 10px;
-}
 
 #login{
     background-color: white;
@@ -61,6 +58,11 @@ h1{
 #formulário{
     display: block;
     padding: 10px;
+}
+h1{
+    font-size: .8em;
+    text-align: center;
+    margin:10px;
 }
 
 #formulário>p{

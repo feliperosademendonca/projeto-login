@@ -34,7 +34,7 @@ Tv     1280 para cima
      }
 }
 /*Para pc e grandes telas*/
-@media  screen and (min-width:992px)   {
+@media  screen and (min-width:1280px)   {
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }
@@ -44,13 +44,23 @@ Tv     1280 para cima
     }
 
     #login>#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulário{
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    #formulário>h1{
+        font-size: 2em;
+    }
+    
+    #formulário>p{
+        font-size: 1.2em;
+    }
+    
+
 }        
