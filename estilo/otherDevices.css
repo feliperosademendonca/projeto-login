@@ -9,7 +9,7 @@ Tv     1280 para cima
 /*Orientation Landscape*/
 
 /*Para tablet*/
-@media  screen and (min-width:768px) and (max-width:992px) {
+@media  screen and (min-width:768px) and (max-width:1280px) {
     
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);

@@ -17,33 +17,35 @@
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-             </div>
+            <div id="imagem"></div>
             <div id="formulário">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. 
+                <p>
+                Seja bem-vindo(a) novamente. <br><br>
                 Faça login para acessar a sua conta e 
                 poder fazer as configurações em seu 
-                ambiente</p>
+                ambiente.
+                </p>
                 <form action="./pgConfirm.html" method="post" autocomplete="on">
                     <div class="campo">
-                        <i alt="icone email  "  class="iconeEmail material-icons">person</i>
-                        <input type="email" name="email" id="iEmail" placeholder="email" required="" maxlength="30" autocomplete="email">
-                        <label for="iEmail" class="email icone" >
-                        </label>
+                        <i alt="icone email"  class="material-icons">person</i>
+                        <input type="email" name="email" id="iEmail" placeholder="Seu Email" required="" maxlength="30" autocomplete="email">
+                        <label for="iEmail" class="email icone" >E-mail</label>
                     </div>
                     
                     <div class="campo ">
-                        <i alt="icone senha  " class="iconePswd   material-icons">key</i>
+                        <i alt="icone senha" class="material-icons">key</i>
                         <input type="password" name="pswd" id="iPswd" placeholder="Senha" required="" maxlength="30" autocomplete="current-password">
-                        <label for="iPswd" class="pswd icone" ></label>
+                        <label for="iPswd" class="pswd icone" >Senha</label>
                     </div>
 
-                    <input type="submit">Entrar</input>
+                    <input type="submit" value="Entrar"> 
+
+                    <a href="recuperarSenha.html" class="botao" >
+                        Esqueci a Senha <i class="material-icons"> mail</i></a>
                 </form>
-                <a href="recuperarSenha.html" >Esqueci a Senha <i class="material-icons"> mail</i></a>
+                 
             </div>
-          
         </section>
     </main>
     
