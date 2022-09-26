@@ -16,7 +16,8 @@ Tv     1280 para cima
     }
 
     #login{
-        width: 50%;
+        max-width: 500px; 
+        width: 65%;
         height: 50%;
     }
 
@@ -40,7 +41,10 @@ Tv     1280 para cima
     }
 
     section#login{
-        max-width: 950px;
+        max-width: 600px;
+        width: 50%;
+        height:60%;
+   
     }
 
     #login>#imagem{
