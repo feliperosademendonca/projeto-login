@@ -10,6 +10,7 @@
     <link rel="stylesheet"  href="./icon.css">
     <link rel="stylesheet" href="estilo/mobileFirst.css">
     <link rel="stylesheet" href="estilo/otherDevices.css" media= "(min-width: 768px)">
+     <script src="jquery.min.js"></script>
      <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
     <script src="script.js"></script>
     <title>Projeto Tela de Login</title>
@@ -26,7 +27,7 @@
                 poder fazer as configurações em seu 
                 ambiente.
                 </p>
-                <form action="./pgConfirm.html" method="post" autocomplete="on">
+                <div id="formulário" name="form-name">
                     <div class="campo">
                         <i alt="icone email"  class="material-icons">person</i>
                         <input type="email" name="email" id="iEmail" placeholder="Seu Email" required="" maxlength="30" autocomplete="email">
@@ -39,11 +40,13 @@
                         <label for="iPswd" class="pswd icone" >Senha</label>
                     </div>
 
-                    <input type="submit" value="Entrar"> 
+                    <input type="submit" value="Entrar" name="submit"> 
 
                     <a href="recuperarSenha.html" class="botao" >
                         Esqueci a Senha <i class="material-icons"> mail</i></a>
-                </form>
+                    <a href="cadastro.html" class="botao" >
+                        Novo Cadastro <i class="material-icons"> write</i></a>
+                </div>
                  
             </div>
         </section>

@@ -35,7 +35,7 @@ main{
 #login{
     background-color: white;
     width:70vw;
-    height:515px;
+    height:555px;
     border-radius: 20px;
     margin: auto;
     text-align: center;
@@ -122,8 +122,8 @@ label{
 
 }
  
-form > input[type=submit]{
-    display:block;
+#formulário > input[type=submit]{
+    display:blocformuláriok;
     font-size: .8em;
     width:100%; 
     height: 40px;
@@ -136,11 +136,11 @@ form > input[type=submit]{
     cursor: pointer;
 }
 
-form > input[type=submit]:hover{
+#formulário > input[type=submit]:hover{
     background-color: #2f6c6a;
 }
 
-form > a.botao{
+#formulário> a.botao{
     display:block;
     font-size: .8em;
     width:100%;
@@ -154,7 +154,7 @@ form > a.botao{
     text-decoration: none;
 }
 
-form > a.botao:hover{
+formulário > a.botao:hover{
     color: #49a09d;
     background-color: #2f6c6a;
 }
